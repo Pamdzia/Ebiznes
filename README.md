@@ -1,4 +1,4 @@
-**Zadanie 1** Tytuł
+**Zadanie 1** Docker
 
 [Link](https://hub.docker.com/repository/docker/pamdzia/e_biznes/general) do mojego repozytorium z Ebiznesu na platformie DockerHub
 

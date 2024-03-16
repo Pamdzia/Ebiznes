@@ -1,4 +1,6 @@
-**Zadanie 1** Tytuł
+**Zadanie 1** Docker
+
+[Link](https://hub.docker.com/repository/docker/pamdzia/e_biznes/general) do mojego repozytorium z Ebiznesu na platformie DockerHub
 
 :white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Pamdzia/Ebiznes/tree/zadanie1-punkt1)
 

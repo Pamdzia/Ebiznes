@@ -1,6 +1,6 @@
 **Zadanie 1** Tytuł
 
-:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/kprzystalski/workshop_template/commit/hash)
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Pamdzia/Ebiznes/tree/zadanie1-punkt1)
 
 :white_check_mark: 3.5 wymaganie 2 [Link do commita2 ](https://github.com/kprzystalski/workshop_template/commit/hash)
 

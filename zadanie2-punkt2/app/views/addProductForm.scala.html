@@ -1,0 +1,25 @@
+@()(implicit request: RequestHeader)
+@import helper._
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dodaj Produkt</title>
+    </head>
+    <body>
+        <h1>Dodaj nowy produkt</h1>
+
+        @form(action = routes.ProductController.addProduct, 'method -> "post") {
+            @CSRF.formField
+
+            <input type="text" name="name" placeholder="Nazwa produktu" required>
+            <input type="text" name="description" placeholder="Opis produktu" required>
+            <input type="number" step="0.01" name="price" placeholder="Cena produktu" required>
+
+            <button type="submit">Dodaj produkt</button>
+        }
+
+        <a href="@routes.ProductController.listOfProducts">Powrót do listy produktów</a>
+    </body>
+</html>

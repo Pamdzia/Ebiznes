@@ -1,0 +1,37 @@
+@import play.filters.csrf.CSRF
+@import play.filters.csrf.CSRF.Token
+@import play.api.test.CSRFTokenHelper.addCSRFToken
+@(productList: Seq[Product])
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista Produktów</title>
+    </head>
+    <body>
+        <a href="@routes.HomeController.index()" class="back-link">Powrót do strony głównej</a>
+
+            <!-- Przycisk Dodaj Produkt -->
+        <a href="@routes.ProductController.addProductForm">Dodaj Produkt</a>
+
+        <h1>Produkty</h1>
+        <div id="productList">
+        @for(product <- productList) {
+            <div class="product">
+                <h2>@product.name</h2>
+                <p>@product.description</p>
+                <p>Cena: @product.price zł</p>
+
+                <a href="@routes.ProductController.getProduct(product.id)">Pokaż</a>
+
+                <a href="@routes.ProductController.updateProductForm(product.id)">Edytuj</a>
+
+                <form action="@routes.ProductController.deleteProduct(product.id)" method="post">
+                    <input type="submit" value="Usuń" onclick="return confirm('Czy na pewno chcesz usunąć ten produkt?');">
+                </form>
+            </div>
+        }
+        </div>
+    </body>
+</html>

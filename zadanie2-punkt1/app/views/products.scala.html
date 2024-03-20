@@ -1,0 +1,22 @@
+@(productList: Seq[Product])
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista Produktów</title>
+    </head>
+    <body>
+        <a href="@routes.HomeController.index()" class="back-link">Powrót do strony głównej</a>
+        <h1>Produkty</h1>
+        <div id="productList">
+            @for(product <- productList) {
+                <div class="product">
+                    <h2>@product.name</h2>
+                    <p>@product.description</p>
+                    <p>Cena: @product.price zł</p>
+                </div>
+            }
+        </div>
+    </body>
+</html>

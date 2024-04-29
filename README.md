@@ -60,6 +60,18 @@
 
 :x: 5.0 wymaganie 5
 
+**Zadanie 6** Testy
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Pamdzia/Ebiznes/tree/zadanie6-punkt1)
+
+:x: 3.5 wymaganie 2 
+
+:x: 4.0 wymaganie 3 
+
+:x: 4.5 wymaganie 4
+
+:x: 5.0 wymaganie 5
+
 **Zadanie 7** Sonar
 
 :white_check_mark: 3.0 wymaganie 1 [Link do servera](https://github.com/Pamdzia/Ebiznes7-server/tree/main)

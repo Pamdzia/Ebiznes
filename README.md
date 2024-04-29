@@ -59,3 +59,15 @@
 :x: 4.5 wymaganie 4
 
 :x: 5.0 wymaganie 5
+
+**Zadanie 5** Sonar
+
+:white_check_mark: 3.0 wymaganie 1 [Link do servera](https://github.com/Pamdzia/Ebiznes7-server/tree/main)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do servera](https://github.com/Pamdzia/Ebiznes7-server/tree/main)
+
+:white_check_mark: 4.0 wymaganie 3 [Link do servera](https://github.com/Pamdzia/Ebiznes7-server/tree/main)
+
+:white_check_mark: 4.5 wymaganie 4 [Link do servera](https://github.com/Pamdzia/Ebiznes7-server/tree/main)
+
+:x: 5.0 wymaganie 5

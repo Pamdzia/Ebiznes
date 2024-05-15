@@ -83,3 +83,15 @@
 :white_check_mark: 4.5 wymaganie 4 [Link do servera](https://github.com/Pamdzia/Ebiznes7-server/tree/main)
 
 :x: 5.0 wymaganie 5
+
+**Zadanie 8** Oauth2
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita1](https://github.com/Pamdzia/Ebiznes/tree/zadanie8-punkt1)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita2](https://github.com/Pamdzia/Ebiznes/tree/zadanie8-punkt2)
+
+:x: 4.0 wymaganie 3 
+
+:x: 4.5 wymaganie 4 
+
+:x: 5.0 wymaganie 5

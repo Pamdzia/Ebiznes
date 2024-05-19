@@ -3,18 +3,18 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - zadanie10-punkt2  # Zmień z 'main' na 'zadanie10-punkt2'
+      - zadanie10-punkt2
   pull_request:
     branches:
-      - zadanie10-punkt2  # Zmień z 'main' na 'zadanie10-punkt2'
-  workflow_dispatch:  # Pozwala na ręczne uruchomienie tego workflow z GitHub UI
+      - zadanie10-punkt2
+  workflow_dispatch:
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
 
     env:
-      AWS_REGION: eu-central-1
+      AWS_REGION: eu-central-1  # Frankfurt
       ECR_REGISTRY: public.ecr.aws/e8m0n2w8
       ECR_REPOSITORY_SERVER: lab10-server
       ECR_REPOSITORY_CLIENT: lab10-client
